@@ -1,0 +1,44 @@
+body, p, ul, li, a, h1, h2, h3, h4, h5
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #8FDBD9;
+}
+
+#menu
+{
+    width: 100%;    
+    min-width: 320px;
+    //position: fixed;
+    top: 0px;
+    left: 0px;
+    vertical-align: middle;
+    line-height:2em;
+}
+
+#logo
+{
+    font-size:75%;
+}
+
+ul
+{
+    display:flex;
+    justify-content:flex-start;
+}
+
+li
+{
+    font-size:30px;
+    display: inline;
+}
+
+a
+{
+    text-decoration: none;
+    color: #404040;
+}
