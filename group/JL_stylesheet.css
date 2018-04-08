@@ -8,7 +8,6 @@ html, body, p, ul, li, body, h1, h2, h3, h4
     margin: 0;
     padding: 0;
     color:dimgrey;
-    /*text-decoration: none;*/
 }
 
 p, a, li, h2
@@ -25,16 +24,11 @@ body
 {
     margin: auto;
     background-color: white;
-    /*background-color: #fcf5e5;
-    /*width:60%;
-    /*min-width: 320px;
-    /*background-color:aquamarine;*/
 }
 
 .heading_container
 {
     line-height: 4em;
-    /*border: 1px solid black;*/
     background-image: url(images/title_bg.png);
     background-repeat: repeat;
     border-bottom: 6px solid;
@@ -47,7 +41,6 @@ body
     width: 70%;
     margin: auto;
     line-height: 4em;
-    /*border: 1px solid black;*/
     background-image: url(images/title_bg.png);
     background-repeat: repeat;
 }
@@ -63,7 +56,6 @@ body
     display:flex;
     justify-content: space-around;
     align-items:center;
-    /*border: 1px solid black;*/
 }
 
 .menu li
@@ -145,20 +137,6 @@ body
     position: absolute;
 }
 
-/*
-.adopt_th_overlay h2
-{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 2vmax;
-    color: black;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-}
-*/
-
 .attribution 
 {
     margin:auto;
@@ -179,16 +157,12 @@ body
 {
     width:20%;
     min-width:200px;
-    /*background-color: aqua;
-    margin-left:10px;
-    min-width:200px;*/
 }
 
 .sidebar_box
 {
     height: auto;
     margin-bottom: 20px;
-    /*border: 1px solid black;*/
 }
 
 .sidebar_box h2
@@ -246,20 +220,3 @@ body
     fill: blue;
     stroke: blue;
 }
-
-/*
-#adopt .sidebar div
-{
-    transition: .8s ease;
-    transition-delay: .2s;
-}
-
-#adopt .sidebar div:hover
-{
-    background-color: white;
-    border:orange solid 1px;
-    color:orange;
-    transition-delay: 0s;
-}
-*/
-
