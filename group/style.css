@@ -301,7 +301,7 @@ html, body
 
 
 
-/*---------------ADOPT_LEFT---------------------*/
+/*---------------JIMMY---------------------*/
 
 #adopt
 {
@@ -310,6 +310,13 @@ html, body
     display:flex;
     flex-wrap:wrap;
     margin-top: 30px;
+}
+
+#adopt h1, #adopt p
+{
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 #adopt .adopt_main
@@ -384,7 +391,6 @@ html, body
     color:darkgrey;
 }
 
-/*-----------------SIDEBAR_RIGHT---------------*/
 
 #adopt .sidebar_container
 {
@@ -400,14 +406,16 @@ html, body
 
 #adopt .sidebar_box h2
 {
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 1em;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 #adopt .sidebar_button
 {
     font-size: .9em;
+    font-family: 'Noto Serif', serif;
     display: flex;
     align-items: center;
     justify-content: center;
